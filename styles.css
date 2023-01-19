@@ -70,3 +70,39 @@ text.big{
     height:200px;
     width:350px;
 }
+
+
+.middle-part1{
+    text-align: center;
+}
+.imgheader{
+    padding-top:50px;
+    padding-bottom: 50px;
+}
+div.imgheader{
+    font-size: 36px;
+    font-weight: bolder;
+    color:#1F2937;
+    text-align: center;
+}
+
+.gallery{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    
+}
+.text{
+   font-size: 20px; 
+   margin: 30px;
+}
+.card img{
+
+    height:200px;
+    width:200px;
+    border-radius: 50% 0px 50% 50%;
+    border:5px solid;
+    border-color: #1F2937;
+    margin-bottom:30px;
+}
