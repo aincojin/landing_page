@@ -45,10 +45,11 @@ text.big{
     flex-shrink:0;
 }
 .press button{
-    background-color: #3882f6;
-    color:#F9FAF8;
+    background-color: #ebe716;
+    color:#1F2937;
+    font-size: 15px;
     font-weight:bold;
-    padding:12px 15px;
+    padding:12px 20px;
     width:100px;
     flex-shrink:0;
     border-radius: 12px;
@@ -105,4 +106,24 @@ div.imgheader{
     border:5px solid;
     border-color: #1F2937;
     margin-bottom:30px;
+}
+
+.middle-part2{
+    background-color: #E5E7EB;
+    padding: 100px 200px;
+    display:flex;
+    flex-direction: column;
+    gap:30px;
+}
+.quote{
+    flex-shrink:0;
+    font-size:36px;
+    font-style:italic;
+
+}
+.author{
+    align-self: flex-end;
+    flex-shrink:0;
+    font-weight:900;
+    font-size: large;
 }
