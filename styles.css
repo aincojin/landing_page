@@ -1,5 +1,7 @@
 body{
     font-family:'Courier New', Courier, monospace;
+
+    margin:0px;
 }
 
 .header{
@@ -30,7 +32,7 @@ a{
 .upper-part{
     background-color: #1F2937;
     display:flex;
-    padding:34px 150px;
+    padding:70px 150px;
     gap:50px;
 }
 
@@ -113,17 +115,27 @@ div.imgheader{
     padding: 100px 200px;
     display:flex;
     flex-direction: column;
-    gap:30px;
+    gap:40px;
 }
 .quote{
     flex-shrink:0;
     font-size:36px;
     font-style:italic;
+    align-self: center;
 
 }
 .author{
     align-self: flex-end;
     flex-shrink:0;
     font-weight:900;
-    font-size: large;
+    font-size: 21px;
+    
+}
+
+.footer{
+    background-color: #1F2937;
+    color:aliceblue;
+    display:flex;
+    justify-content: center;
+    padding:30px;
 }
