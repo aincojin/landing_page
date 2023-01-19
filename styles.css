@@ -1,5 +1,4 @@
 body{
-
     font-family:'Courier New', Courier, monospace;
 }
 
@@ -16,6 +15,7 @@ ul{
     padding:0px;
     margin:0;
     gap:44px;
+    text-align: center;
 }
 a{
     text-decoration: none;
@@ -27,3 +27,46 @@ a{
     font-weight: bold;
 }
 
+.upper-part{
+    background-color: #1F2937;
+    display:flex;
+    padding:34px 150px;
+    gap:50px;
+}
+
+text.big{
+    font-size: 34px;
+    font-weight:bolder;
+    color:#F9FAF8;
+    justify-content: center;
+}
+.right text{
+    color:#E5E7EB;
+    flex-shrink:0;
+}
+.press button{
+    background-color: #3882f6;
+    color:#F9FAF8;
+    font-weight:bold;
+    padding:12px 15px;
+    width:100px;
+    flex-shrink:0;
+    border-radius: 12px;
+    border:none;
+}
+
+.left{
+    display: flex;
+    align-items: flex-start;
+
+}
+.right{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap:20px;
+}
+.left img{
+    height:200px;
+    width:350px;
+}
