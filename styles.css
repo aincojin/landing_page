@@ -8,7 +8,7 @@ body{
     background-color: #1F2937;
     display:flex;
     justify-content: space-between;
-    padding:34px 150px;
+    padding:70px 150px;
 }
 
 ul{
@@ -16,15 +16,15 @@ ul{
     list-style-type: none;
     padding:0px;
     margin:0;
-    gap:44px;
+    gap:50px;
     text-align: center;
 }
 a{
     text-decoration: none;
-    color:#E5E7EB
+    color:#a7a7a7
 }
 .logo{
-    font-size: 24px;
+    font-size: 30px;
     color:#E5E7EB;
     font-weight: bold;
 }
@@ -32,9 +32,13 @@ a{
 .upper-part{
     background-color: #1F2937;
     display:flex;
-    padding:70px 150px;
+    padding-bottom:70px;
+    padding-left: 150px;
+    padding-right:150px;
     gap:50px;
+    justify-content: space-between;
 }
+
 
 text.big{
     font-size: 34px;
@@ -42,40 +46,44 @@ text.big{
     color:#F9FAF8;
     justify-content: center;
 }
-.right text{
+.left text{
     color:#E5E7EB;
     flex-shrink:0;
 }
 .press button{
-    background-color: #ebe716;
+    background-color:#F68E5F;
     color:#1F2937;
-    font-size: 15px;
+    font-size: 20px;
     font-weight:bold;
-    padding:12px 20px;
-    width:100px;
+    padding:18px 25px;
+    width:150px;
     flex-shrink:0;
     border-radius: 12px;
     border:none;
 }
 
-.left{
+.upper-part .right{
     display: flex;
-    align-items: flex-start;
+    align-items: center;
+    
 
 }
-.right{
+.upper-part .left{
     display:flex;
     flex-direction: column;
     flex-wrap: wrap;
     gap:20px;
+    width:500px;
+    justify-content: center;
 }
-.left img{
-    height:200px;
-    width:350px;
+.right img{
+    height:300px;
+    width:450px;
+    border-radius: 20px;
 }
-
 
 .middle-part1{
+    background-color:#75B9BE;
     text-align: center;
 }
 .imgheader{
@@ -130,6 +138,54 @@ div.imgheader{
     font-weight:900;
     font-size: 21px;
     
+}
+
+.bottom-part .left{
+    display:flex;
+    flex-direction: column;
+    line-height: normal;
+}
+
+.bottom-part{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#F68E5F;
+    padding:50px;
+}
+
+.inside{
+    background-color:aliceblue;
+    display:flex;
+    padding:40px;
+    border-radius: 30px;
+    gap:80px;
+}
+
+text.bigger{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+ 
+}
+.inside text,
+.right button{
+    color:#1F2937;
+    
+}
+
+.right.bottom-part{
+    display:flex;
+    align-items: center;
+}
+.right button{
+    border-radius: 7px;
+    padding:18px 25px;
+    font-weight: 550;
+    font-size: 18px;
+    background-color: #75B9BE;
+    border: 0px;
+    width:150px;
 }
 
 .footer{
